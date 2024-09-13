@@ -47,6 +47,7 @@
 		0424F5D82C94E6070066722E /* UIRefreshControl_iOS_16_17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIRefreshControl_iOS_16_17UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0424F5DC2C94E6070066722E /* UIRefreshControl_iOS_16_17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControl_iOS_16_17UITests.swift; sourceTree = "<group>"; };
 		0424F5DE2C94E6070066722E /* UIRefreshControl_iOS_16_17UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControl_iOS_16_17UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7709F0E2C94EA4D00BBBD7D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		0424F5AF2C94E6030066722E = {
 			isa = PBXGroup;
 			children = (
+				B7709F0E2C94EA4D00BBBD7D /* README.md */,
 				0424F5BA2C94E6030066722E /* UIRefreshControl_iOS_16_17 */,
 				0424F5D12C94E6070066722E /* UIRefreshControl_iOS_16_17Tests */,
 				0424F5DB2C94E6070066722E /* UIRefreshControl_iOS_16_17UITests */,
