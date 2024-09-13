@@ -12,9 +12,19 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .cyan
+        
+        view.backgroundColor = .systemGray5
+        
+        refreshControl = UIRefreshControl()
+        
+        refreshControl?.addTarget(self, action: #selector(refresh), for: .primaryActionTriggered)
+        
+        refresh()
     }
 
+    @objc func refresh() {
+        refreshControl?.beginRefreshing()
+    }
 
 }
 
