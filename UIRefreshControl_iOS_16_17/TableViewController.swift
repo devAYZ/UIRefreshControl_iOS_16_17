@@ -23,10 +23,15 @@ class TableViewController: UITableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        //refresh()
+//        refresh()
     }
     
     override func viewDidAppear(_ animated: Bool) {
+//        refresh()
+    }
+    
+    override func viewIsAppearing(_ animated: Bool) {
+        super.viewIsAppearing(animated)
         refresh()
     }
 

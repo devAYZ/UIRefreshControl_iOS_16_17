@@ -18,3 +18,19 @@ Testing UIRefreshControl on iOS16 and iOS 17
 ## Solution 1
 -  viewDidAppear(_) method is called when views are on Screen already, so this will fixed the "UIRefreshControlReceivedOffscreenBeginRefreshing error"
 - but the UIRefreshControl will not still start to refrest on iOS 17
+
+
+## Solution 1 (Note)
+- the refreshing actually works with Solution 1's viewDidAppear(_), because if a gentle pull down is applied on the screen the refresh control is revealed.
+- Summarily, it appears that viewDidAppear(_) is too late to handle this with respect to view life cycles
+- Also viewDidLoad(_), viewWillAppear(_) are to early.
+
+
+## Solution 2
+- In iOS 17, Apple introduced a new life cycle in iOS 17, viewIsAppearing(_)
+- having the refresh method in the life cycle hierarchy fixes the issue
+
+
+## Linkd
+- Apple Documentation [link](https://developer.apple.com/documentation/uikit/uiviewcontroller/4195485-viewisappearing)
+- Essential Developer [link]()
