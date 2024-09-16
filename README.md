@@ -31,6 +31,13 @@ Testing UIRefreshControl on iOS16 and iOS 17
 - having the refresh method in the life cycle hierarchy fixes the issue
 
 
+## Solution 2 (Note)
+- viewIsAppearing(_) is backwards compartible all the way down to iOS 13.
+- to use this method, you need to be running on XCode 15 and above
+
+
 ## Linkd
 - Apple Documentation [link](https://developer.apple.com/documentation/uikit/uiviewcontroller/4195485-viewisappearing)
-- Essential Developer [link]()
+- ohmyswift's usage [link](https://ohmyswift.com/blog/2023/11/30/from-viewwillappear-to-viewisappearing-perfecting-your-ios-view-transitions/)
+- Essential Developer youtube [link](https://www.youtube.com/watch?v=n9ObNkPP5GY)
+- Liamnichols's environment compatibiity [link](https://liamnichols.eu/2023/06/12/view-is-appearing.html)
