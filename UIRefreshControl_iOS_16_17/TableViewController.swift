@@ -19,6 +19,14 @@ class TableViewController: UITableViewController {
         
         refreshControl?.addTarget(self, action: #selector(refresh), for: .primaryActionTriggered)
         
+        //refresh()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        //refresh()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         refresh()
     }
 
