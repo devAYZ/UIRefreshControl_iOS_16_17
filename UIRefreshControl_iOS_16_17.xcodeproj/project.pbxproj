@@ -15,6 +15,7 @@
 		0424F5D32C94E6070066722E /* UIRefreshControl_iOS_16_17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F5D22C94E6070066722E /* UIRefreshControl_iOS_16_17Tests.swift */; };
 		0424F5DD2C94E6070066722E /* UIRefreshControl_iOS_16_17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F5DC2C94E6070066722E /* UIRefreshControl_iOS_16_17UITests.swift */; };
 		0424F5DF2C94E6070066722E /* UIRefreshControl_iOS_16_17UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F5DE2C94E6070066722E /* UIRefreshControl_iOS_16_17UITestsLaunchTests.swift */; };
+		0424F5EC2C9842590066722E /* MockUIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424F5EB2C9842590066722E /* MockUIRefreshControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0424F5D82C94E6070066722E /* UIRefreshControl_iOS_16_17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIRefreshControl_iOS_16_17UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0424F5DC2C94E6070066722E /* UIRefreshControl_iOS_16_17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControl_iOS_16_17UITests.swift; sourceTree = "<group>"; };
 		0424F5DE2C94E6070066722E /* UIRefreshControl_iOS_16_17UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControl_iOS_16_17UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0424F5EB2C9842590066722E /* MockUIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUIRefreshControl.swift; sourceTree = "<group>"; };
 		B7709F0E2C94EA4D00BBBD7D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				0424F5D22C94E6070066722E /* UIRefreshControl_iOS_16_17Tests.swift */,
+				0424F5EB2C9842590066722E /* MockUIRefreshControl.swift */,
 			);
 			path = UIRefreshControl_iOS_16_17Tests;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0424F5D32C94E6070066722E /* UIRefreshControl_iOS_16_17Tests.swift in Sources */,
+				0424F5EC2C9842590066722E /* MockUIRefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
